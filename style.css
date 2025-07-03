@@ -283,7 +283,7 @@ body, html {
 
 /* Responsive */
 /* Responsive */
-@media (max-width: 768px) {
+@media (max-width: 760px) {
   .container {
     flex-direction: column;
     height: auto;
