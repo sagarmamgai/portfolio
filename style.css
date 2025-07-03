@@ -214,10 +214,6 @@ body, html {
   width: 50%;
   background: #00758f; /* SQL teal */
 }
-
-
-
-
 .project {
   background: #f7f8fc;
   padding: 20px;
@@ -286,42 +282,81 @@ body, html {
 }
 
 /* Responsive */
+/* Responsive */
 @media (max-width: 768px) {
   .container {
     flex-direction: column;
     height: auto;
     border-radius: 0;
+    overflow: visible;
   }
+
   .sidebar {
     width: 100%;
-    flex-direction: row;
-    padding: 20px;
-    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 10px;
   }
+
   .profile-pic img {
-    width: 80px;
-    height: 80px;
+    width: 90px;
+    height: 90px;
+    margin-bottom: 10px;
   }
-  .sidebar h1, .sidebar .title {
-    display: none;
+
+  .sidebar h1,
+  .sidebar .title {
+    display: block;
+    font-size: 1.4rem;
+    text-align: center;
   }
+
   .sidebar nav ul {
     display: flex;
-    gap: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+    padding: 0;
+    margin: 10px 0 20px;
+  }
+
+  .sidebar nav ul li {
     margin: 0;
   }
+
+  .sidebar nav ul li a {
+    font-size: 0.95rem;
+    padding: 6px 12px;
+  }
+
   .social-links {
     display: none;
   }
+
+  .whatsapp-link a {
+    padding: 8px 12px;
+    font-size: 0.9rem;
+  }
+
   .content {
-    padding: 30px 20px;
+    padding: 25px 15px;
+    margin-left: 0;
+  }
+
+  .content h2 {
+    font-size: 1.5rem;
+  }
+
+  .project h3 {
+    font-size: 1.1rem;
+  }
+
+  .resume-btn,
+  .btn-resume {
+    font-size: 0.85rem;
+    padding: 8px 14px;
   }
 }
-
-
-
-
-
 
 .resume-btn,
 .btn-resume {
