@@ -320,3 +320,25 @@ body, html {
 
 
 
+
+
+
+.resume-btn,
+.btn-resume {
+  display: inline-block;
+  padding: 10px 20px;
+   background: rgba(255,255,255,0.2);
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: background 0.3s ease;
+  margin-top: 15px;
+}
+
+.resume-btn:hover,
+.btn-resume:hover {
+ background: white;
+  color: #4e54c8;
+}
+
